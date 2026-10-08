@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Volunteer Form</title>
+
+</head>
+
+<body>
+
+  <h1>Volunteer Form</h1>
+
+  <form method="POST" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+
+  <fieldset>
+    <legend>My Info</legend>
+
+    <label for="first_name_field">first name: </label> 
+    <input type="text" id="first_name_field" name="first_name_field" size="50" ><br>
+
+    <label for="last_name_field">last name: </label>
+    <input type="text" id="last_name_field" name="last_name_field" size="50"><br>
+
+    <label for="phone_field">phone: </label>
+    <input type="text" id="phone_field" name="phone_field" size="50"><br>
+
+    <label for="email_field">email: </label>
+    <input type="text_field" id="email_field" name="email_field" size="50"> <br>
+
+    <label>Gender:</label><br>
+    <label>
+      Male
+      <input type="radio" name="gender_field" value="Male" size="50">
+    </label>
+    <label>
+      Female
+      <input type="radio" name="gender_field" value="Female" size="50">
+    </label><br>
+
+    <label for="age_field">Age: </label><br>
+    <select id="age_field" name="age_field">
+      <option value="under18">under 18</option>
+      <option value="over18">over 18</option>
+    </select>
+
+  </fieldset>
+
+
+  <fieldset>
+    <legend>My Availability</legend>
+
+    <h3><strong>Days Available:</strong></h3>
+
+    <label>
+      Sunday
+      <input type="checkbox" name="available_field" value="Sunday"> 
+    </label><br>
+
+    <label>
+      Monday
+      <input type="checkbox" name="available_field" value="Monday"> 
+    </label><br>
+
+    <label>
+      Tuesday
+      <input type="checkbox" name="available_field" value="Tuesday"> 
+    </label><br>
+
+    <label>
+      Wednesday
+      <input type="checkbox" name="available_field" value="Wednesday"> 
+    </label><br>
+
+    <label>
+      Thursday
+      <input type="checkbox" name="available_field" value="Thursday"> 
+    </label><br>
+
+    <label>
+      Friday
+      <input type="checkbox" name="available_field" value="Friday"> 
+    </label><br>
+
+    <label>
+      Saturday
+      <input type="checkbox" name="available_field" value="Saturday"> 
+    </label><br>
+
+    <h3><strong>Comments</strong></h3>
+    <textarea id="comments_field" name="comments_field" rows="4" cols="40"></textarea>
+
+  </fieldset>
+
+  <input type="submit" Value="Submit Query">
+</form>
+
+</body>
+
+</html>
